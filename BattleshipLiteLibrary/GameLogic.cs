@@ -200,6 +200,7 @@ namespace BattleshipLiteLibrary
                     if (isAHit)
                     {
                         spot.Status = GridSpotStatus.Hit;
+
                     }
                     else
                     {
