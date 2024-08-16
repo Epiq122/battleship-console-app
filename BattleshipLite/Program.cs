@@ -78,6 +78,7 @@ namespace BattleshipLite
 
         private static string AskForShot()
         {
+            Console.WriteLine();
             Console.Write("Please enter your shot selection: ");
             string output = Console.ReadLine();
             return output;
